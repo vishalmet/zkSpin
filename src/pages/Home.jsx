@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Shapes from "../assets/shapes.png";
 import Game1 from "../assets/game1.png";
+import ZkTech from "../components/ZkTech";
+import Games from "../components/Games";
 
 const Home = () => {
   return (
@@ -25,7 +27,7 @@ const Home = () => {
             Unlimited TPS  •  Gasless  •  Ultra-low Latency
           </p>
           <div className=" flex justify-center pt-6">
-          <button className="flex items-center text-[20px] font-medium bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3">
+          <button className="flex items-center text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3">
             GET STARTED
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +47,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <ZkTech />
+      <Games />
     </div>
   );
 };
