@@ -8,6 +8,7 @@ import SpinPlayground from "../components/SpinPlayground";
 import SpinIntelligence from "../components/SpinIntelligence";
 import RoadMap from "../components/RoadMap";
 import TeamUp from "../components/TeamUp";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -58,6 +59,7 @@ const Home = () => {
       <SpinIntelligence />
       <RoadMap />
       <TeamUp />
+      <Footer />
     </div>
   );
 };
