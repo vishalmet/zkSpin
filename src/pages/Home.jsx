@@ -4,10 +4,14 @@ import Shapes from "../assets/shapes.png";
 import Game1 from "../assets/game1.png";
 import ZkTech from "../components/ZkTech";
 import Games from "../components/Games";
+import SpinPlayground from "../components/SpinPlayground";
+import SpinIntelligence from "../components/SpinIntelligence";
+import RoadMap from "../components/RoadMap";
+import TeamUp from "../components/TeamUp";
 
 const Home = () => {
   return (
-    <div className=" bg-black min-h-screen text-white">
+    <div className=" bg-black min-h-screen text-white epilogue">
       <Navbar />
       <div className="space-grotesk max-w-7xl mx-auto text-9xl font-medium uppercase pt-10 px-4 sm:px-6 lg:px-8">
         <p className="  ">Infinitely</p>
@@ -50,6 +54,10 @@ const Home = () => {
 
       <ZkTech />
       <Games />
+      <SpinPlayground />
+      <SpinIntelligence />
+      <RoadMap />
+      <TeamUp />
     </div>
   );
 };
