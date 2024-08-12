@@ -5,7 +5,7 @@ import Game4 from "../assets/game4.png"
 
 const Games = () => {
   return (
-    <div className='pt-10 mx-20'>
+    <div className='pt-16 mx-20'>
         <p className=' text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent'>GAMES</p>
         <div className=" pt-10 grid grid-cols-3">
           <div className="">
