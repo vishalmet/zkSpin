@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <div className=" bg-black min-h-screen text-white epilogue">
       <Navbar />
-      <div className="space-grotesk max-w-7xl mx-auto text-9xl font-medium uppercase pt-10 px-4 sm:px-6 lg:px-8">
+      <div className="space-grotesk max-w-7xl mx-auto text-4xl md:text-5xl lg:text-9xl font-medium uppercase pt-10 px-4 sm:px-6 lg:px-8">
         <p className="  ">Infinitely</p>
         <div className=" flex items-center">
-          <img className="w-[240px] h-[84px] mr-10" src={Shapes} alt="shapes" />
+          <img className="w-[100px] md:w-[240px] md:h-[84px] mr-4 md:mr-10" src={Shapes} alt="shapes" />
           <p>scalable</p>
         </div>
         <p>
@@ -25,14 +25,14 @@ const Home = () => {
         </p>
       </div>
 
-      <div className=" pt-20 flex">
-        <img className="h-[280px] w-[800px]" src={Game1} alt="" />
+      <div className=" pt-10 md:pt-20 md:flex">
+        <img className="h-[130px] md:h-[280px] w-full md:w-[800px]" src={Game1} alt="" />
         <div className="  mx-auto">
-          <p className=" text-[28px] font-medium">
+          <p className=" pt-4 md:pt-0 text-xl mx-4 flex justify-center md:mx-0 md:text-[28px] font-medium">
             Unlimited TPS  •  Gasless  •  Ultra-low Latency
           </p>
-          <div className=" flex justify-center pt-6">
-          <button className="flex items-center text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3">
+          <div className=" flex justify-center pt-3 md:pt-6">
+          <button className="flex items-center text-base md:text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-2 md:p-3">
             GET STARTED
             <svg
               xmlns="http://www.w3.org/2000/svg"

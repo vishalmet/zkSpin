@@ -10,9 +10,9 @@ import Mexc from "../assets/brands/mexc.png"
 
 const TeamUp = () => {
   return (
-    <div className=' mx-20 pt-24'>
-        <p className='text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent'>TEAMED UP WITH <br /> THE BEST</p>
-        <div className=" grid grid-cols-4 gap-6 items-center pt-10" >
+    <div className=' mx-4 md:mx-20 pt-10 md:pt-24'>
+        <p className='text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent'>TEAMED UP WITH <br /> THE BEST</p>
+        <div className=" grid grid-cols-2 md:grid-cols-4 gap-6 items-center pt-10" >
             <img className=' w-[357px] hover:scale-105' src={Near} alt="near foundations" />
             <img className=' w-[330px] hover:scale-105' src={DAOMaker} alt="daomaker" />
             <img className=' w-[410px] hover:scale-105' src={LDcapital} alt="ldcapital" />

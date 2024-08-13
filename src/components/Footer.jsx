@@ -6,12 +6,12 @@ import Twitter from "../assets/icons/Twitter.png"
 
 const Footer = () => {
   return (
-    <div className=" bg-gradient-to-br from-customStart to-customEnd h-[337px] mt-24">
-      <div className="mx-20 py-20 flex">
+    <div className=" bg-gradient-to-br from-customStart to-customEnd h-full mt-24">
+      <div className="mx-20 py-20 md:flex">
         <div className=" flex-1">
           <img className=" w-[155px] h-[40px]" src={Logo2} alt="" />
         </div>
-        <div className="pt-2 flex space-x-32">
+        <div className="pt-2 space-y-4 md:space-y-0 md:flex md:space-x-32">
           <div className="">
             <p className="font-semibold text-xl">SPIN</p>
             <ol>
