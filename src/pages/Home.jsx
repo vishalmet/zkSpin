@@ -19,7 +19,7 @@ const Home = () => {
           <p className="  ">Infinitely</p>
           <div className=" flex items-center">
             <img
-              className="w-[100px] md:w-[240px] md:h-[84px] mr-4 md:mr-10"
+              className="w-[100px] md:w-[260px] md:h-[84px] mr-4 md:mr-10"
               src={Shapes}
               alt="shapes"
             />
