@@ -35,7 +35,7 @@ const SpinIntelligence = () => {
             </a>
           </p>
           <div className="flex justify-center md:justify-start ">
-            <button className=" text-black font-semibold bg-white uppercase p-2 md:p-4 hover:bg-slate-200">
+            <button className=" text-black font-semibold hover:scale-95 bg-white uppercase p-2 md:p-4 hover:bg-slate-200">
               coming soon
             </button>
           </div>
