@@ -3,6 +3,7 @@ import Logo2 from "../assets/logowhite.png";
 import Discord from "../assets/icons/Discord.png"
 import Telegram from "../assets/icons/Telegram.png"
 import Twitter from "../assets/icons/Twitter.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,9 +17,9 @@ const Footer = () => {
           <div className="">
             <p className="font-semibold text-xl">SPIN</p>
             <ol>
-              <ul href="">Tech</ul>
-              <ul href="">Demo Games</ul>
-              <ul href="">Playground</ul>
+              <Link to="/">Tech</Link> <br />
+              <Link to="/games">Demo Games</Link> <br />
+              <Link to="/playground">Playground</Link>
             </ol>
           </div>
           <div className="">
