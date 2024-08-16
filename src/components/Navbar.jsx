@@ -4,51 +4,75 @@ import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState("");
+
+  const handleMenuClick = (menu) => {
+    setActiveMenu(menu);
+    setIsOpen(false); 
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <nav className="bg-transparent text-white">
+    <nav className="gradient-container overflow-x-hidden epilogue text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="text-lg font-bold">
-              <img className=" h-8" src={Logo} alt="logo" />
+              <img className="h-8" src={Logo} alt="logo" />
             </div>
           </div>
           <div className="hidden md:block">
-            <div className=" flex text-[18px] items-baseline space-x-10">
-              <Link to="/" className="hover:underline">
+            <div className="flex text-[18px] items-baseline space-x-10">
+              <Link
+                to="/"
+                className={`cursor-pointer ${
+                  activeMenu === "home"
+                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    : "hover:text-slate-400"
+                }`}
+                onClick={() => handleMenuClick("home")}
+              >
                 Home
               </Link>
-              <Link to="/about" className="hover:underline">
-                Studio
+              <Link
+                to="/games"
+                className={`cursor-pointer ${
+                  activeMenu === "games"
+                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    : "hover:text-slate-400"
+                }`}
+                onClick={() => handleMenuClick("games")}
+              >
+                Games
               </Link>
-              <Link to="/contact" className="hover:underline">
-                Services
+              <Link
+                to="/playboard"
+                className={`cursor-pointer ${
+                  activeMenu === "playboard"
+                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    : "hover:hover:text-slate-400"
+                }`}
+                onClick={() => handleMenuClick("playboard")}
+              >
+                Playboard
               </Link>
-              <Link to="/contact" className="hover:underline">
-                Contact
-              </Link>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`cursor-pointer ${
+                  activeMenu === "contact"
+                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    : "hover:text-slate-400"
+                }`}
+                onClick={() => handleMenuClick("contact")}
+              >
+                Contact Us
+              </a>
             </div>
-          </div>
-          <div className="hidden md:block">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-10"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 9h16.5m-16.5 6.75h16.5"
-              />
-            </svg>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button
@@ -104,22 +128,42 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
             to="/"
-            className="block px-3 py-2 rounded-md text-base font-medium hover:underline"
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
+              activeMenu === "home" ? "text-slate-400" : ""
+            }`}
+            onClick={() => handleMenuClick("home")}
           >
             Home
           </Link>
           <Link
-            to="/about"
-            className="block px-3 py-2 rounded-md text-base font-medium hover:underline"
+            to="/games"
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
+              activeMenu === "games" ? "text-slate-400" : ""
+            }`}
+            onClick={() => handleMenuClick("games")}
           >
-            About
+            Games
           </Link>
           <Link
-            to="/contact"
-            className="block px-3 py-2 rounded-md text-base font-medium hover:underline"
+            to="/playboard"
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
+              activeMenu === "playboard" ? "text-slate-400" : ""
+            }`}
+            onClick={() => handleMenuClick("playboard")}
           >
-            Contact
+            Playboard
           </Link>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
+              activeMenu === "contact" ? "text-slate-400" : ""
+            }`}
+            onClick={() => handleMenuClick("contact")}
+          >
+            Contact Us
+          </a>
         </div>
       </div>
     </nav>
