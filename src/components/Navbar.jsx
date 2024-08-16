@@ -57,7 +57,7 @@ const Navbar = () => {
                 }`}
                 onClick={() => handleMenuClick("playground")}
               >
-                Playboard
+                Playground
               </Link>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
