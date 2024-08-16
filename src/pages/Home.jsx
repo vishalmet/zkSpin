@@ -1,10 +1,7 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Shapes from "../assets/shapes.png";
 import Game1 from "../assets/game1.png";
 import ZkTech from "../components/ZkTech";
-import Games from "../components/Games";
-import SpinPlayground from "../components/SpinPlayground";
 import SpinIntelligence from "../components/SpinIntelligence";
 import RoadMap from "../components/RoadMap";
 import TeamUp from "../components/TeamUp";
@@ -14,7 +11,6 @@ const Home = () => {
   return (
     <div className="bg-black text-white epilogue">
       <div className="gradient-container overflow-x-hidden min-h-full pb-4 md:pb-0 md:min-h-screen space-grotesk text-5xl md:text-5xl lg:text-9xl font-medium uppercase">
-        <Navbar />
         <div className=" pt-10  max-w-7xl px-4 md:px-6 lg:px-8 mx-auto">
           <p className="  ">Infinitely</p>
           <div className=" flex items-center">
@@ -41,7 +37,7 @@ const Home = () => {
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
             <div className=" flex justify-center pt-3 md:pt-6">
-              <button className="flex items-center text-base md:text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-2 md:p-3">
+              <a href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md" target="_blank" className="flex items-center cursor-pointer text-base md:text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-2 md:p-3">
                 GET STARTED
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -57,15 +53,13 @@ const Home = () => {
                     d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
         </div>
       </div>
 
       <ZkTech />
-      <Games />
-      <SpinPlayground />
       <SpinIntelligence />
       <RoadMap />
       <TeamUp />
