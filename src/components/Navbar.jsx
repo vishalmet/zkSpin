@@ -49,13 +49,13 @@ const Navbar = () => {
                 Games
               </Link>
               <Link
-                to="/playboard"
+                to="/playground"
                 className={`cursor-pointer ${
-                  activeMenu === "playboard"
+                  activeMenu === "playground"
                     ? "text-slate-400 border-[#C23DF5] border-b-2"
                     : "hover:hover:text-slate-400"
                 }`}
-                onClick={() => handleMenuClick("playboard")}
+                onClick={() => handleMenuClick("playground")}
               >
                 Playboard
               </Link>
