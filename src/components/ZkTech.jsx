@@ -1,5 +1,5 @@
 import React from "react";
-import Flow from "../assets/flow.png"
+import Flow from "../assets/flow.png";
 
 const ZkTech = () => {
   return (
@@ -19,8 +19,18 @@ const ZkTech = () => {
             developer experience the top priority in our long term roadmap.
           </p>
           <div className=" pt-6 md:space-x-6">
-            <a className="hover:cursor-pointer p-2 md:p-4 bg-black text-base hover:bg-gray-700 hover:scale-95 font-semibold"> LIVE PAPER (COMING SOON)</a>
-            <a href="https://drive.google.com/file/d/1NdPbXSThKu9E3xF-4KHMAUOcZG_mp35s/view" className="hover:cursor-pointer mt-2 md:mt-0 p-2 md:p-4 bg-black hover:bg-gray-700 hover:scale-95 font-semibold"> ZKP PRIMER</a>
+            <a className="hover:cursor-pointer p-2 md:p-4 bg-black text-base hover:bg-gray-700 hover:scale-95 font-semibold">
+              {" "}
+              LIVE PAPER (COMING SOON)
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1NdPbXSThKu9E3xF-4KHMAUOcZG_mp35s/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:cursor-pointer mt-2 md:mt-0 p-2 md:p-4 bg-black hover:bg-gray-700 hover:scale-95 font-semibold"
+            >
+              ZKP PRIMER
+            </a>
           </div>
         </div>
       </div>
