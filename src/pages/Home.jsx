@@ -37,7 +37,12 @@ const Home = () => {
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
             <div className=" flex justify-center pt-3 md:pt-6">
-              <a href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md" target="_blank" className="flex items-center cursor-pointer text-base md:text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-2 md:p-3">
+              <a
+                href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center cursor-pointer text-base md:text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-2 md:p-3"
+              >
                 GET STARTED
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
