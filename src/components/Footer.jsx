@@ -31,7 +31,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   Github
-                </a>
+                </a> <br />
                 <a href="" target="_blank" rel="noopener noreferrer">
                   Docs
                 </a>

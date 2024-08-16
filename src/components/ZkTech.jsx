@@ -18,19 +18,22 @@ const ZkTech = () => {
             developer community to try out this new technology, we make
             developer experience the top priority in our long term roadmap.
           </p>
-          <div className=" pt-6 md:space-x-6">
-            <a className="hover:cursor-pointer p-2 md:p-4 bg-black text-base hover:bg-gray-700 hover:scale-95 font-semibold">
-              {" "}
-              LIVE PAPER (COMING SOON)
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1NdPbXSThKu9E3xF-4KHMAUOcZG_mp35s/view"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:cursor-pointer mt-2 md:mt-0 p-2 md:p-4 bg-black hover:bg-gray-700 hover:scale-95 font-semibold"
-            >
-              ZKP PRIMER
-            </a>
+          <div className=" pt-6 flex-row md:flex space-y-4 md:space-y-0 md:space-x-6">
+            <div className="">
+              <a className="hover:cursor-pointer p-2 md:p-4 bg-black text-base hover:bg-gray-700 hover:scale-95 font-semibold">
+                LIVE PAPER (COMING SOON)
+              </a>
+            </div>
+            <div className="">
+              <a
+                href="https://drive.google.com/file/d/1NdPbXSThKu9E3xF-4KHMAUOcZG_mp35s/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:cursor-pointer p-2 md:p-4 bg-black hover:bg-gray-700 hover:scale-95 font-semibold"
+              >
+                ZKP PRIMER
+              </a>
+            </div>
           </div>
         </div>
       </div>

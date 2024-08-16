@@ -145,13 +145,13 @@ const Navbar = () => {
             Games
           </Link>
           <Link
-            to="/playboard"
+            to="/playground"
             className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
-              activeMenu === "playboard" ? "text-slate-400" : ""
+              activeMenu === "playground" ? "text-slate-400" : ""
             }`}
-            onClick={() => handleMenuClick("playboard")}
+            onClick={() => handleMenuClick("playground")}
           >
-            Playboard
+            Playground
           </Link>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
