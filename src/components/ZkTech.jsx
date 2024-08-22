@@ -21,7 +21,7 @@ const ZkTech = () => {
           <div className=" pt-6 flex-row md:flex space-y-4 md:space-y-0 md:space-x-6">
             <div className="">
               <a className="hover:cursor-pointer p-2 md:p-4 bg-black text-base hover:bg-gray-700 hover:scale-95 font-semibold">
-                LIVE PAPER (COMING SOON)
+                LITE PAPER (COMING SOON)
               </a>
             </div>
             <div className="">

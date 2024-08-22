@@ -9,7 +9,7 @@ const SpinPlayground = () => {
     <div className="gradient-container overflow-x-hidden min-h-screen text-white epilogue">
       <div className=" pt-8 mx-4 md:mx-20">
         <p className=" text-4xl md:text-5xl lg:text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent">
-          SPIN PLAYGROUND
+          PLAYGROUND
         </p>
         <p className=" text-center">Super Lightweight Retro Spin Games 🚀</p>
         <div className=" pt-10 md:grid md:grid-cols-3">

@@ -10,29 +10,13 @@ const SpinIntelligence = () => {
           src={SpinIntel}
           alt="spin intelligence"
         />
-        <div className="md:mx-32 space-y-2 md:space-y-10">
+        <div className="md:mx-32 space-y-2 md:space-y-6">
           <p className="text-4xl text-center md:text-start md:text-5xl lg:text-7xl  uppercase space-grotesk font-medium bg-gradient-to-br from-customStart to-customEnd bg-clip-text text-transparent">
             spin intelligence
           </p>
           <p className="">
             On-chain gaming activities are professionally indexed and analyzed,
-            with actionable insights accessible via a Web2 API, by the team
-            behind{" "}
-            <a
-              className="underline"
-              href="https://x.com/CertiKAlert"
-              target="_blank"
-            >
-               @CertikAlert 
-            </a>{" "}
-            and{" "}
-            <a
-              className="underline"
-              target="_blank"
-              href="https://www.certik.com/products/skyinsights"
-            >
-               SkyInsights.{" "}
-            </a>
+            with actionable insights accessible via a Web2 API.
           </p>
           <div className="flex justify-center md:justify-start ">
             <button className=" text-black font-semibold hover:scale-95 bg-white uppercase p-2 md:p-4 hover:bg-slate-200">
