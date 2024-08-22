@@ -63,7 +63,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      
       <ZkTech />
       <SpinIntelligence />
       <RoadMap />
