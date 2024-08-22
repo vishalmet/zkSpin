@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center">
             <div>
-              <p className="font-semibold text-xl">ABOUT</p>
+              <p className="font-semibold text-xl text-center md:text-start">ABOUT</p>
               <div className="flex gap-3">
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <img className="h-[24px] w-[24px]" src={Discord} alt="discord" />
