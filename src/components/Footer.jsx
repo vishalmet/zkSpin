@@ -15,10 +15,10 @@ const Footer = () => {
         <div className="pt-2 space-y-4 md:space-y-0 md:flex md:space-x-32">
           <div className=" flex justify-center space-x-16 md:space-x-32">
             <div className="">
-              <p className="font-semibold text-xl">SPIN</p>
+              <p className="font-semibold text-xl">ZKSPIN</p>
               <ol>
                 <Link to="/">Tech</Link> <br />
-                <Link to="/games">Demo Games</Link> <br />
+                <Link to="/games">Games</Link> <br />
                 <Link to="/playground">Playground</Link>
               </ol>
             </div>
