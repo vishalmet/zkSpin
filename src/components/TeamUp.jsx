@@ -1,15 +1,15 @@
 import React from "react";
 
-import CSX from "../assets/partners/csx.png";
-import Rings from "../assets/partners/rings.png";
-import Doc from "../assets/partners/doc.png";
-import BGA from "../assets/partners/bga.png";
-import ABGA from "../assets/partners/abga.png";
-import Certik from "../assets/partners/certik.png";
-import Delphinus from "../assets/partners/delphinuslabs.png";
-import CircleTri from "../assets/partners/circletri.png";
-import Neural from "../assets/partners/neural.png";
-import Artela from "../assets/partners/artela.png";
+import CSX from "../assets/partner/csx.jpg";
+import Rings from "../assets/partner/rings.jpg";
+import Doc from "../assets/partner/doc.jpg";
+import BGA from "../assets/partner/bga.jpg";
+import ABGA from "../assets/partner/abga.jpg";
+import Certik from "../assets/partner/certik.jpg";
+import Delphinus from "../assets/partner/delphinuslabs.jpg";
+import CircleTri from "../assets/partner/circletri.jpg";
+import Neural from "../assets/partner/neural.jpg";
+import Artela from "../assets/partner/artela.jpg";
 
 const TeamUp = () => {
   return (
