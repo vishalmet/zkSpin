@@ -17,7 +17,7 @@ const Partners = () => {
       <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent">
         TEAMED UP WITH <br /> THE BEST
       </p>
-      <div className="  mt-10 md:mt-20 h-full p-4 md:p-16 items-center">
+      <div className=" h-full py-10 p-4 md:p-16 items-center">
         <div className=" grid grid-cols-2 md:grid-cols-5 gap-6 items-center">
           <img className=" h-10 md:h-16 flex justify-center mx-auto hover:scale-105" src={CSX} alt="CSX" />
           <img className=" h-12 md:h-16 flex justify-center mx-auto hover:scale-105" src={Rings} alt="RINGS" />
