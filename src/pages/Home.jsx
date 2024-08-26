@@ -4,8 +4,8 @@ import Game1 from "../assets/game1.png";
 import ZkTech from "../components/ZkTech";
 import SpinIntelligence from "../components/SpinIntelligence";
 import RoadMap from "../components/RoadMap";
-import TeamUp from "../components/TeamUp";
 import Footer from "../components/Footer";
+import Partners from "../components/Partners";
 
 const Home = () => {
   return (
@@ -67,7 +67,7 @@ const Home = () => {
       <ZkTech />
       <SpinIntelligence />
       <RoadMap />
-      <TeamUp />
+      <Partners />
       <Footer />
     </div>
   );
