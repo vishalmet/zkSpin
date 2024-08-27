@@ -20,7 +20,7 @@ const Footer = () => {
           <img className="w-[155px] h-[40px]" src={Logo2} alt="logo" />
         </div>
         <div className="pt-2 space-y-4 md:space-y-0 md:flex md:space-x-32">
-          <div className="flex justify-center space-x-16 md:space-x-32">
+          <div className="flex justify-between space-x-16 md:space-x-32">
             <div>
               <p className="font-semibold text-xl">ZKSPIN</p>
               <ol>
@@ -45,9 +45,9 @@ const Footer = () => {
               </ol>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-start pt-6 md:pt-0">
             <div>
-              <p className="font-semibold text-xl text-center md:text-start">ABOUT</p>
+              <p className="font-semibold text-xl text-start">ABOUT</p>
               <div className="flex gap-3">
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <img className="h-[24px] w-[24px]" src={Discord} alt="discord" />
