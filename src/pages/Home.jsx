@@ -9,7 +9,7 @@ import Partners from "../components/Partners";
 
 const Home = () => {
   return (
-    <div className="bg-black text-white epilogue">
+    <div className="bg-[#141414] text-white epilogue">
       <div className="gradient-container overflow-x-hidden min-h-full pb-4 md:pb-0 md:min-h-screen space-grotesk text-5xl md:text-5xl lg:text-9xl font-medium uppercase">
         <div className=" pt-10  max-w-7xl px-4 md:px-6 lg:px-8 mx-auto">
           <p className="  ">Infinitely</p>
