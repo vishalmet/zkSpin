@@ -111,7 +111,7 @@ const Partners = () => {
         />
       </div>
         <img
-          className="h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+          className="h-[100px] md:hidden w-[167px] flex justify-center mx-auto hover:scale-105"
           src={BGA}
           alt="BGA"
         />
