@@ -325,7 +325,7 @@ const Navbar = () => {
           >
             Contact Us
           </a>
-          <div className=" px-3 pb-4">
+          <div className=" px-3 py-3">
             <div className="space-x-4 ">
               <a
                 href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
