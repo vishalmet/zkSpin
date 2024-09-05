@@ -49,7 +49,7 @@ const Navbar = () => {
                 Games
               </Link>
               <Link
-                to="/playground"
+                // to="/playground"
                 className={`cursor-pointer ${
                   activeMenu === "playground"
                     ? "text-slate-400 border-[#C23DF5] border-b-2"
@@ -306,7 +306,7 @@ const Navbar = () => {
             Games
           </Link>
           <Link
-            to="/playground"
+            // to="/playground"
             className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
               activeMenu === "playground" ? "text-slate-400" : ""
             }`}
