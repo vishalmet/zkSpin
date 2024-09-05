@@ -48,8 +48,8 @@ const Navbar = () => {
               >
                 Games
               </Link>
-              <Link
-                // to="/playground"
+              {/* <Link
+                to="/playground"
                 className={`cursor-pointer ${
                   activeMenu === "playground"
                     ? "text-slate-400 border-[#C23DF5] border-b-2"
@@ -58,7 +58,7 @@ const Navbar = () => {
                 onClick={() => handleMenuClick("playground")}
               >
                 Playground
-              </Link>
+              </Link> */}
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
                 target="_blank"
@@ -305,15 +305,15 @@ const Navbar = () => {
           >
             Games
           </Link>
-          <Link
-            // to="/playground"
+          {/* <Link
+            to="/playground"
             className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
               activeMenu === "playground" ? "text-slate-400" : ""
             }`}
             onClick={() => handleMenuClick("playground")}
           >
             Playground
-          </Link>
+          </Link> */}
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
             target="_blank"
