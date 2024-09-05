@@ -26,7 +26,7 @@ const Footer = () => {
               <ol>
                 <button onClick={() => handleNavigation("/")}>Tech</button> <br />
                 <button onClick={() => handleNavigation("/games")}>Games</button> <br />
-                <button onClick={() => handleNavigation("/playground")}>Playground</button>
+                {/* <button onClick={() => handleNavigation("/playground")}>Playground</button> */}
               </ol>
             </div>
             <div>
