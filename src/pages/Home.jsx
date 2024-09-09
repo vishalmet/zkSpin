@@ -1,6 +1,7 @@
 import React from "react";
 import Shapes from "../assets/shapes.png";
 import Game1 from "../assets/game1.png";
+import LandingRight from "../assets/landing-r.png"
 import ZkTech from "../components/ZkTech";
 import SpinIntelligence from "../components/SpinIntelligence";
 import RoadMap from "../components/RoadMap";
@@ -10,8 +11,9 @@ import Partners from "../components/Partners";
 const Home = () => {
   return (
     <div className="bg-[#141414] text-white epilogue">
-      <div className="gradient-container overflow-x-hidden min-h-full pb-4 md:pb-0 md:min-h-screen space-grotesk text-5xl md:text-5xl lg:text-9xl font-medium uppercase">
-        <div className=" pt-10  max-w-7xl px-4 md:px-6 lg:px-8 mx-auto">
+      <div className="gradient-container overflow-x-hidden min-h-full pb-4 md:pb-0 md:min-h-screen space-grotesk text-3xl md:text-5xl lg:text-9xl font-medium uppercase">
+        <div className=" pt-24 md:pt-32 ml-4 md:ml-[72px] flex justify-between items-center">
+          <div className="">
           <p className="  ">Infinitely</p>
           <div className=" flex items-center">
             <img
@@ -24,6 +26,10 @@ const Home = () => {
           <p>
             on-chain game <br /> engine
           </p>
+          </div>
+          <div className=" ">
+            <img className=" h-[160px] md:h-[520px] w-[100px] md:w-[200px]" src={LandingRight} alt="Game" />
+          </div>
         </div>
 
         <div className=" pt-10 md:pt-20 md:flex">
