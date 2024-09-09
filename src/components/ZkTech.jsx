@@ -13,7 +13,7 @@ const ZkTech = () => {
             <p className="uppercase text-2xl md:text-5xl  font-semibold bg-gradient-to-br from-customStart to-customEnd bg-clip-text text-transparent">
               Ephemeral ZK-Rollup
             </p>
-            <p className=" pb-6">
+            <p className=" pb-6 text-sm">
               The parent chain processes player identity, financial and
               achievement data.
             </p>
