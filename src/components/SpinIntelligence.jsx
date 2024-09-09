@@ -19,7 +19,7 @@ const SpinIntelligence = () => {
             with actionable insights accessible via a Web2 API.
           </p>
           <div className="flex justify-start ">
-            <button className=" text-black font-semibold hover:scale-95 bg-white uppercase p-2 md:p-4 hover:bg-slate-200">
+            <button className="uppercase flex items-center cursor-pointer text-base md:text-2xl font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3 px-5">
               coming soon
             </button>
           </div>

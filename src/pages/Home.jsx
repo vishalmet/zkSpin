@@ -47,7 +47,7 @@ const Home = () => {
                 href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center cursor-pointer text-base md:text-[20px] font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-2 md:p-3"
+                className="flex items-center cursor-pointer text-base md:text-2xl font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3 px-5"
               >
                 GET STARTED
                 <svg
