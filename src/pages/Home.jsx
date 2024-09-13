@@ -17,6 +17,7 @@ const Home = () => {
             <p className="  ">Infinitely</p>
             <div className=" flex items-center">
               <img
+              loading="lazy"
                 className="w-[100px] md:w-[260px] md:h-[84px] mr-4 md:mr-10"
                 src={Shapes}
                 alt="shapes"
@@ -34,14 +35,14 @@ const Home = () => {
 
         <div className=" pt-10 md:pt-20 md:flex">
           <div className=" w-full md:w-[800px] overflow-hidden">
-            <img
+            <img loading="lazy"
               className="h-[130px] md:h-[280px] w-full md:w-[800px] flex-shrink object-cover transform transition-transform duration-500 hover:scale-110"
               src={Game1}
               alt=""
             />
           </div>
           <div className=" mx-auto">
-            <p className=" pt-4 md:pt-0 text-xl md:text-[28px] font-medium">
+            <p className=" pt-4 md:pt-0 px-4 md:px-0 text-xl md:text-[28px] font-medium">
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
             <div className=" flex justify-start pt-3 md:pt-6">

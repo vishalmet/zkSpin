@@ -12,7 +12,7 @@ const SpinIntelligence = () => {
           alt="spin intelligence"
         />
         </div>
-        <div className=" space-y-2 pt-4 md:pt-0 md:space-y-10">
+        <div className=" space-y-2 pt-4 md:pt-0 px-4 md:px-0 md:space-y-10">
           <p className="text-4xl text-center md:text-start md:text-5xl lg:text-7xl bg-gradient-to-br from-customStart to-customEnd bg-clip-text text-transparent uppercase space-grotesk font-medium ">
             spin <br /> <span classname="">intelligence</span> 
           </p>
