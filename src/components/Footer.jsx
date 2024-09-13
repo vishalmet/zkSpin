@@ -14,45 +14,18 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-customStart to-customEnd h-full mt-24">
-      <div className="mx-4 md:mx-20 py-10 md:py-20 md:flex">
+    <div className="bg-gradient-to-br from-customStart to-customEnd h-full mt-24 p-3">
+      <div className="mx-4 md:mx-20 flex items-center">
         <div className="flex-1 pb-10 md:pb-0">
-          <img className="w-[155px] h-[40px]" src={Logo2} alt="logo" />
+          <img className="w-[115px] h-[30px]" src={Logo2} alt="logo" />
         </div>
-        <div className="pt-2 space-y-4 md:space-y-0 md:flex md:space-x-32">
-          <div className="flex justify-between space-x-16 md:space-x-32">
-            <div>
-              <p className="font-semibold text-xl">ZKSPIN</p>
-              <ol>
-                <button onClick={() => handleNavigation("/")}>Tech</button> <br />
-                <button onClick={() => handleNavigation("/games")}>Games</button> <br />
-                {/* <button onClick={() => handleNavigation("/playground")}>Playground</button> */}
-              </ol>
-            </div>
-            <div>
-              <p className="font-semibold text-xl">RESOURCES</p>
-              <ol>
-                <a
-                  href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </a> <br />
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  Docs
-                </a>
-              </ol>
-            </div>
-          </div>
+
           <div className="flex justify-start pt-6 md:pt-0">
-            <div>
-              <p className="font-semibold text-xl text-start">ABOUT</p>
               <div className="flex gap-3">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.com/invite/K7cKbUtzPq" target="_blank" rel="noopener noreferrer">
                   <img className="h-[24px] w-[24px]" src={Discord} alt="discord" />
                 </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/addlist/NfReKsoSnXE5NzAx" target="_blank" rel="noopener noreferrer">
                   <img className="h-[24px] w-[24px]" src={Telegram} alt="telegram" />
                 </a>
                 <a
@@ -63,11 +36,9 @@ const Footer = () => {
                   <img className="h-[24px] w-[24px]" src={Twitter} alt="twitter" />
                 </a>
               </div>
-            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
