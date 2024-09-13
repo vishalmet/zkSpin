@@ -32,7 +32,7 @@ const Partners = () => {
               alt="SCROLL"
             />
           </a>
-          <a href="" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.abga.asia/" rel="noopener noreferrer" target="_blank">
             <img
               className="md:w-[240px] md:h-[110px] flex justify-center mx-auto hover:scale-105"
               src={ABGA}
@@ -76,7 +76,7 @@ const Partners = () => {
               alt="LITA"
             />
           </a>
-          <a href="" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.blockchaingamealliance.org/" rel="noopener noreferrer" target="_blank">
             <img
               className="md:w-[240px] md:h-[110px] flex justify-center mx-auto hover:scale-105"
               src={BGA}
@@ -103,7 +103,7 @@ const Partners = () => {
             alt="SCROLL"
           />
         </a>
-        <a href="" rel="noopener noreferrer" target="_blank">
+        <a href="https://www.abga.asia/" rel="noopener noreferrer" target="_blank">
           <img
             className=" h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
             src={ABGA}
@@ -146,7 +146,7 @@ const Partners = () => {
           />
         </a>
       </div>
-      <a href="" rel="noopener noreferrer" target="_blank">
+      <a href="https://www.blockchaingamealliance.org/" rel="noopener noreferrer" target="_blank">
         <img
           className="h-[100px] md:hidden w-[167px] flex justify-center mx-auto hover:scale-105"
           src={BGA}
