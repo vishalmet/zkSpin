@@ -28,22 +28,20 @@ const Navbar = () => {
             <div className="flex text-[18px] items-baseline space-x-10">
               <Link
                 to="/"
-                className={`cursor-pointer ${
-                  activeMenu === "home"
+                className={`cursor-pointer ${activeMenu === "home"
                     ? "text-slate-400 border-[#C23DF5] border-b-2"
                     : "hover:text-slate-400"
-                }`}
+                  }`}
                 onClick={() => handleMenuClick("home")}
               >
                 Home
               </Link>
               <Link
                 to="/games"
-                className={`cursor-pointer ${
-                  activeMenu === "games"
+                className={`cursor-pointer ${activeMenu === "games"
                     ? "text-slate-400 border-[#C23DF5] border-b-2"
                     : "hover:text-slate-400"
-                }`}
+                  }`}
                 onClick={() => handleMenuClick("games")}
               >
                 Games
@@ -59,19 +57,16 @@ const Navbar = () => {
               >
                 Playground
               </Link> */}
-              <a
-                href="https://docs.google.com/forms/d/Qe/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`cursor-pointer ${
-                  activeMenu === "contact"
+              <Link
+                to="/contactus"
+                className={`cursor-pointer ${activeMenu === "contact"
                     ? "text-slate-400 border-[#C23DF5] border-b-2"
                     : "hover:text-slate-400"
-                }`}
+                  }`}
                 onClick={() => handleMenuClick("contact")}
               >
                 Contact Us
-              </a>
+              </Link>
               <div className="hidden md:block">
                 <div className=" flex gap-6">
                   <a
@@ -289,18 +284,16 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
             to="/"
-            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
-              activeMenu === "home" ? "text-slate-400" : ""
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "home" ? "text-slate-400" : ""
+              }`}
             onClick={() => handleMenuClick("home")}
           >
             Home
           </Link>
           <Link
             to="/games"
-            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
-              activeMenu === "games" ? "text-slate-400" : ""
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "games" ? "text-slate-400" : ""
+              }`}
             onClick={() => handleMenuClick("games")}
           >
             Games
@@ -318,9 +311,8 @@ const Navbar = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
             target="_blank"
             rel="noopener noreferrer"
-            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
-              activeMenu === "contact" ? "text-slate-400" : ""
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "contact" ? "text-slate-400" : ""
+              }`}
             onClick={() => handleMenuClick("contact")}
           >
             Contact Us
