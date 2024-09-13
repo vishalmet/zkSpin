@@ -307,16 +307,14 @@ const Navbar = () => {
           >
             Playground
           </Link> */}
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdqOaFS_QcIj1tl_-NvdMjjNjxEMqbUvRdkN6hB3U94MKPTaQ/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contactus"
             className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "contact" ? "text-slate-400" : ""
               }`}
             onClick={() => handleMenuClick("contact")}
           >
             Contact Us
-          </a>
+          </Link>
           <div className=" px-3 py-3">
             <div className="space-x-4 ">
               <a
