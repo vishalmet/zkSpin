@@ -26,15 +26,11 @@ const Contact = () => {
                                     class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2 bg-gray-900/10 rounded-md"
                                     placeholder="Email"
                                 />
-                                <input
-                                    type="tel"
-                                    class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2 bg-gray-900/10 rounded-md"
-                                    placeholder="Phone"
-                                />
+                               
                                 <textarea
                                     cols="10"
                                     rows="5"
-                                    class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2 bg-gray-900/10 rounded-md h-20"
+                                    class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2 bg-gray-900/10 rounded-md"
                                     placeholder="Write your message..."
                                 ></textarea>
                             </div>
