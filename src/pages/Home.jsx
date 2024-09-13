@@ -45,7 +45,7 @@ const Home = () => {
             <p className=" pt-4 md:pt-0 px-4 md:px-0 text-xl md:text-[28px] font-medium">
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
-            <div className=" flex justify-start pt-3 md:pt-6">
+            <div className=" flex pt-3 md:pt-6 px-4 md:px-0">
               <a
                 href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
                 target="_blank"
