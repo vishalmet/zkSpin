@@ -49,11 +49,10 @@
   transform: translateY(5px);
   box-shadow: 0px 0px 0px 0px #ce94e6;
 }
-
 .Btn-Container {
   display: flex;
   width: 170px;
-  height: fit-content;
+  height: 50px; /* Set a fixed height to ensure the text is vertically centered */
   background-color: #1d2129;
   border-radius: 40px;
   box-shadow: 2px 0px 2px #bebebe;
@@ -62,6 +61,7 @@
   border: none;
   cursor: pointer;
 }
+
 .icon-Container {
   width: 45px;
   height: 45px;
@@ -72,23 +72,27 @@
   border-radius: 50%;
   border: 3px solid #1d2129;
 }
+
 .text {
-  width: calc(170px - 45px);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-grow: 1;
+  text-align: center;
   color: white;
   font-size: 1.1em;
   letter-spacing: 1.2px;
+  display: flex; /* Ensures center alignment inside the container */
+  justify-content: center; /* Horizontally centers the text */
+  align-items: center; /* Vertically centers the text */
 }
+
 .icon-Container svg {
   transition-duration: 1.5s;
 }
+
 .Btn-Container:hover .icon-Container svg {
   transition-duration: 1.5s;
   animation: arrow 1s linear infinite;
 }
+
 @keyframes arrow {
   0% {
     opacity: 0;

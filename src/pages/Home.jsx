@@ -28,21 +28,21 @@ const Home = () => {
               on-chain game <br /> engine
             </p>
           </div>
-          <div className="w-[100px] md:w-[200px] lg:w-[400px] overflow-hidden ">
-            <img className=" h-[160px] md:h-[520px] w-[100px] md:w-[200px] lg:w-[400px] object-cover transform transition-transform duration-500 hover:scale-110" src={LandingRight} alt="Game" />
+          <div className="w-[100px] md:w-[200px] lg:w-[400px] overflow-hidden flex justify-end">
+            <img className=" h-[160px] md:h-[520px] w-[100px] md:w-[200px] lg:w-[300px] object-cover transform transition-transform duration-500 hover:scale-110" src={LandingRight} alt="Game" />
           </div>
         </div>
 
         <div className=" pt-10 md:pt-20 md:flex">
-          <div className=" w-full md:w-[800px] overflow-hidden">
+          <div className=" w-full md:w-[700px] overflow-hidden">
             <img loading="lazy"
-              className="h-[130px] md:h-[280px] w-full md:w-[800px] flex-shrink object-cover transform transition-transform duration-500 hover:scale-110"
+              className="h-[130px] md:h-[280px] w-full md:w-[700px] flex-shrink object-cover transform transition-transform duration-500 hover:scale-110"
               src={Game1}
               alt=""
             />
           </div>
           <div className=" mx-auto">
-            <p className=" pt-4 md:pt-0 px-4 md:px-0 text-xl md:text-[28px] font-medium">
+            <p className=" pt-4 md:pt-0 px-4 md:px-0 text-base md:text-[28px] font-medium">
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
             <div className=" flex pt-3 md:pt-6 px-4 md:px-0">

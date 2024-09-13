@@ -75,7 +75,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     class="Btn-Container"
                   >
-                    <span class="text">Github</span>
+                    <span className="text pt-1">Github</span>
                     <span class="icon-Container">
                       <svg
                         width="16"
@@ -153,7 +153,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     class="Btn-Container"
                   >
-                    <span class="text">Docs</span>
+                    <span className="text pt-1">Docs</span>
                     <span class="icon-Container">
                       <svg
                         width="16"
