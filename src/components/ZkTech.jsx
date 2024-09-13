@@ -4,7 +4,7 @@ import FlowFallback from "../assets/flow.png"; // Fallback PNG if necessary
 
 const ZkTech = () => {
   return (
-    <div className="bg-gradient-to-br from-customStart to-customEnd mt-10 md:mt-20 h-full p-4 md:p-24 text-white">
+    <div className="bg-gradient-to-br from-customStart to-customEnd mt-10 md:mt-20 h-full p-4 pb-8 md:p-24 text-white">
       <div className="">
         <div className="flex-row md:flex md:space-x-32">
           <p className="uppercase text-4xl md:text-5xl lg:text-7xl font-medium space-grotesk">
@@ -43,9 +43,9 @@ const ZkTech = () => {
               developer community to try out this new technology, we make
               developer experience the top priority in our long-term roadmap.
             </p>
-            <div className="pt-6 flex-row md:flex space-y-4 md:space-y-0 md:space-x-6">
+            <div className="pt-6 flex-row md:flex space-y-8 md:space-y-0 md:space-x-6">
               <div>
-                <a className="hover:cursor-pointer p-2 md:p-4 bg-black text-base hover:bg-gray-700 hover:scale-95 font-semibold">
+                <a className="hover:cursor-pointer p-4 bg-black text-sm md:text-base hover:bg-gray-700 hover:scale-95 font-semibold">
                   LITE PAPER (COMING SOON)
                 </a>
               </div>
@@ -54,7 +54,7 @@ const ZkTech = () => {
                   href="https://drive.google.com/file/d/1NdPbXSThKu9E3xF-4KHMAUOcZG_mp35s/view"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:cursor-pointer p-2 md:p-4 bg-black hover:bg-gray-700 hover:scale-95 font-semibold"
+                  className="hover:cursor-pointer p-4 bg-black text-sm md:text-base hover:bg-gray-700 hover:scale-95 font-semibold"
                 >
                   ZKP PRIMER
                 </a>
