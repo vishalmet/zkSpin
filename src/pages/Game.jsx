@@ -11,11 +11,13 @@ const SpinPlayground = () => {
         <p className=' text-4xl md:text-5xl lg:text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent'>GAMES</p>
         <div className=" pt-10 md:grid md:grid-cols-3">
           <a href="https://www.catsvsdogs.xyz/" target="_blank" rel="noopener noreferrer" className=" cursor-pointer">
+          <div className="w-full md:w-[426px] overflow-hidden">
             <img
-              className=" h-[350px] transition-transform duration-500 transform hover:scale-90 hover:border-2 hover:border-white hover:shadow-white hover:shadow-2xl hover:rotate-6 w-full md:h-[463px] md:w-[426px]"
+              className=" h-[350px] transition-transform duration-500 transform hover:scale-110 w-full md:h-[463px] md:w-[426px]"
               src={Game1}
               alt="cats vs. dogs"
             />
+            </div>
             <p className=" text-2xl md:text-4xl font-medium pt-3 md:pt-6">
               Cats vs. Dogs
             </p>
@@ -27,12 +29,13 @@ const SpinPlayground = () => {
 
           <div className="pt-6 md:pt-0">
           <a href="https://66d96b10a7edd4de9770d922--sprightly-swan-309149.netlify.app/" target="_blank" rel="noopener noreferrer" className=" cursor-pointer">
-
+            <div className="w-full md:w-[426px] overflow-hidden">
             <img
-              className=" h-[400px] transition-transform duration-500 transform hover:scale-90 hover:border-2 hover:border-white hover:shadow-white hover:shadow-2xl hover:rotate-6 w-full md:h-[600px] md:w-[426px]"
+              className=" h-[400px] transition-transform duration-500 transform hover:scale-110 w-full md:h-[600px] md:w-[426px]"
               src={Game2}
               alt="Snake Game"
             />
+            </div>
             <p className=" text-2xl md:text-4xl font-medium pt-3 md:pt-6">
               Serpent Chase
             </p>
@@ -43,11 +46,13 @@ const SpinPlayground = () => {
           </div>
 
           <div className=" pt-6 md:pt-0">
+            <div className="w-full md:w-[426px] overflow-hidden">
             <img
-              className=" h-[350px] transition-transform duration-500 transform hover:scale-90 hover:border-2 hover:border-white hover:shadow-white hover:shadow-2xl hover:rotate-6 w-full md:h-[463px] md:w-[426px]"
+              className=" h-[350px] transition-transform duration-500 transform hover:scale-110 w-full md:h-[463px] md:w-[426px]"
               src={Game3}
               alt="cats vs. dogs"
             />
+            </div>
             <p className=" text-2xl md:text-4xl font-medium pt-3 md:pt-6">
               COMING SOON
             </p>
