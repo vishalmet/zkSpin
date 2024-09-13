@@ -3,9 +3,9 @@ import Flow from "../assets/flow.png";
 
 const ZkTech = () => {
   return (
-    <div className=" bg-gradient-to-br from-customStart to-customEnd mx-4 md:mx-20 mt-10 md:mt-20 h-full p-4 md:p-16 text-white">
+    <div className=" bg-gradient-to-br from-customStart to-customEnd mt-10 md:mt-20 h-full p-4 md:p-24 text-white">
       <div className=" ">
-        <div className=" flex-row md:flex md:space-x-32 pt-4 md:pt-10">
+        <div className=" flex-row md:flex md:space-x-32">
           <p className=" uppercase text-4xl md:text-5xl lg:text-7xl font-medium space-grotesk">
             the zkspin <br /> technology
           </p>
