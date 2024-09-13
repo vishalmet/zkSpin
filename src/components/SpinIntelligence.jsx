@@ -4,8 +4,8 @@ import SpinIntel from "../assets/spinintelligence1.png";
 const SpinIntelligence = () => {
   return (
     <div className="md:mx-20 pt-10 md:pt-24 text-white">
-      <div className=" md:flex items-center md:space-x-16">
-        <div className=" md:w-[820px] overflow-hidden">
+      <div className=" md:grid md:grid-cols-2 items-center md:space-x-16">
+        <div className=" md:w-[670px] overflow-hidden">
         <img
           className="flex md:h-[600px] md:w-full transition-transform duration-500 transform hover:scale-110 "
           src={SpinIntel}
