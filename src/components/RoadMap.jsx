@@ -1,19 +1,20 @@
 import React from "react";
 import Roadmap from "../assets/roadmap1.png";
 import Timeline from "../assets/timeline.png";
+import TimelineG from "../assets/timeline-g.png";
 
 const RoadMap = () => {
   return (
-    <div className="  text-white">
+    <div className=" p-4 py-8 md:pt-0 md:p-0 text-white">
       <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-br from-[#63D0FF] to-[#DC81FF] bg-clip-text text-transparent">
         roadmap
       </p>
-      <img className="hidden lg:flex pt-6 md:pt-16" src={Roadmap} alt="" />
-      <div className=" lg:hidden">
+      <img className="hidden lg:flex pt-6 md:pt-16 " src={Roadmap} alt="" />
+      <div className=" lg:hidden sfpro">
         <div className="">
-          <p className="pl-16 pt-10 relative">Q2 2024</p>
-          <img className=" " src={Timeline} alt="" />
-          <div className="pl-16">
+          <p className="pl-16 pt-10 relative text-white/80">Q2 2024</p>
+          <img className=" " src={TimelineG} alt="" />
+          <div className="pl-16 text-white/80">
             <li>Single Player SDK</li>
             <li>Demo Game</li>
             <li>Community Building</li>
