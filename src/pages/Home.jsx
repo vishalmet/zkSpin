@@ -33,10 +33,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=" pt-10 py-4 md:py-[50px] lg:py-[72px] md:flex">
+        <div className=" pt-10 py-4 md:py-[50px] lg:py-[72px] md:flex flex-shrink-0">
           <div className=" w-full md:w-[700px] overflow-hidden">
             <img loading="lazy"
-              className="h-[130px] md:h-[280px] w-full md:w-[700px] flex-shrink object-cover transform transition-transform duration-500 hover:scale-110"
+              className="h-[130px] md:h-[280px] w-auto md:w-[700px] flex-shrink object-cover transform transition-transform duration-500 hover:scale-110"
               src={Game1}
               alt=""
             />
