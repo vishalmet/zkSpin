@@ -3,11 +3,11 @@ import SpinIntel from "../assets/spinintelligence1.png";
 
 const SpinIntelligence = () => {
   return (
-    <div className="md:mx-20 pt-10 md:pt-24 text-white">
+    <div className="p-4 md:p-[50px] lg:p-[72px] text-white">
       <div className=" md:grid md:grid-cols-2 items-center md:space-x-24">
         <div className=" md:w-[670px] overflow-hidden">
         <img
-          className="flex md:h-[600px] md:w-full transition-transform duration-500 transform hover:scale-110 "
+          className="flex md:h-[600px] md:w-full"
           src={SpinIntel}
           alt="spin intelligence"
         />
