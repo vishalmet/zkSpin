@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Game1 from "../assets/game2.png";
 import Game2 from "../assets/snake.jpg";
 import Game3 from "../assets/game4.png";
 import Footer from "../components/Footer";
 
-const SpinPlayground = () => {
+const Games = () => {
+  
+  useEffect(() => {
+    // Scroll to top when the component is mounted
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="gradient-container overflow-x-hidden min-h-screen text-white epilogue">
       <div className='pt-28 mx-4 md:mx-20'>
@@ -40,7 +46,7 @@ const SpinPlayground = () => {
               Serpent Chase
             </p>
             <p className="text-base">
-              Hunt, collect, and breed unique serpents in Serpent Chase, the ultimate blockchain game. Compete, grow your collection, and unlock rare serpents to reign supreme
+              Hunt, collect, and breed unique serpents in Serpent Chase, the ultimate blockchain game. Compete, grow your collection, and unlock rare serpents to reign supreme.
             </p>
             </a>
           </div>
@@ -50,16 +56,12 @@ const SpinPlayground = () => {
             <img
               className=" h-[350px] transition-transform duration-500 transform hover:scale-110 w-full md:h-[463px] md:w-[426px]"
               src={Game3}
-              alt="cats vs. dogs"
+              alt="Coming Soon"
             />
             </div>
             <p className=" text-2xl md:text-4xl font-medium pt-3 md:pt-6">
               COMING SOON
             </p>
-            {/* <p className=" text-base">
-              Collect and breed digital cats with CryptoKitties, the world’s
-              most successful blockchain game.
-            </p> */}
           </div>
         </div>
     </div>
@@ -68,4 +70,4 @@ const SpinPlayground = () => {
   );
 };
 
-export default SpinPlayground;
+export default Games;
