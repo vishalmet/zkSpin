@@ -13,7 +13,7 @@ import Lita from "../assets/partner/lita.png";
 const Partners = () => {
   return (
     <div className="p-4 md:p-[50px] lg:p-[72px]">
-      <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent">
+      <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-br from-[#63D0FF] to-[#DC81FF] bg-clip-text text-transparent">
         TEAMED UP WITH <br /> THE BEST
       </p>
       <div className="hidden md:block h-full py-10 p-4 md:p-16 items-center">

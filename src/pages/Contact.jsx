@@ -7,7 +7,7 @@ const Contact = () => {
             <div className='pt-28 mx-4 md:mx-20'>
                 <p className=' text-4xl md:text-5xl lg:text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent'>CONTACT US</p>
 
-                <div class="container mx-auto mt-4 md:w-1/3 border border-purple-500 bg-white/10 rounded-lg backdrop-blur-md backdrop-filter">
+                <div class="container sfpro mx-auto mt-4 md:w-1/3 border border-purple-500 bg-white/10 rounded-lg backdrop-blur-md backdrop-filter">
                     <div class="p-5 space-y-5 shadow-xl">
                         <form>
                             <div class="grid grid-cols-2 gap-5">

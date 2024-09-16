@@ -1,6 +1,6 @@
 import React from "react";
 import FlowWebP from "../assets/flow.webp";
-import FlowFallback from "../assets/flow.png"; // Fallback PNG if necessary
+import FlowFallback from "../assets/flow.png"; 
 
 const ZkTech = () => {
   return (
@@ -16,7 +16,7 @@ const ZkTech = () => {
             <p className="uppercase text-2xl md:text-5xl font-semibold bg-gradient-to-br from-customStart to-customEnd bg-clip-text text-transparent">
               Ephemeral ZK-Rollup
             </p>
-            <p className="pb-6 text-sm">
+            <p className="pb-6 text-sm sfpro">
               The parent chain processes player identity, financial and
               achievement data.
             </p>
@@ -33,7 +33,7 @@ const ZkTech = () => {
           </div>
 
           {/* Main content */}
-          <div className="px-1 pt-3 font-light ">
+          <div className="px-1 pt-3 font-light sfpro">
             <p className="text-xs md:text-2xl">
               As the first project to propose verifiable gaming in August 2023,
               zkSpin leverages computing technologies developed at MIT and
@@ -64,11 +64,11 @@ const ZkTech = () => {
         </div>
 
         {/* Desktop section */}
-        <div className="hidden md:block bg-black p-3 md:p-10 md:px-16 mt-6 md:mt-16 text-center">
+        <div className="hidden md:block bg-black p-3 md:p-10 md:px-16 mt-4 md:mt-[50px] lg:mt-[72px] text-center">
           <p className="uppercase text-2xl md:text-5xl font-semibold bg-gradient-to-br from-customStart to-customEnd bg-clip-text text-transparent">
             Ephemeral ZK-Rollup
           </p>
-          <p className="pb-6">
+          <p className="pb-6 sfpro font-extralight">
             The parent chain processes player identity, financial and
             achievement data.
           </p>

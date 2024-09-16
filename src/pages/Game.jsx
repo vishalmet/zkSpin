@@ -8,7 +8,7 @@ const SpinPlayground = () => {
   return (
     <div className="gradient-container overflow-x-hidden min-h-screen text-white epilogue">
       <div className='pt-28 mx-4 md:mx-20'>
-        <p className=' text-4xl md:text-5xl lg:text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent'>GAMES</p>
+        <p className=' text-4xl md:text-5xl lg:text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-[#63D0FF] to-[#DC81FF] bg-clip-text text-transparent'>GAMES</p>
         <div className=" pt-10 md:grid md:grid-cols-3">
           <a href="https://www.catsvsdogs.xyz/" target="_blank" rel="noopener noreferrer" className=" cursor-pointer">
           <div className="w-full md:w-[426px] overflow-hidden">

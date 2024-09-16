@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black/70 backdrop-filter backdrop-blur-md overflow-x-hidden epilogue text-white w-full fixed z-50">
+    <nav className="bg-black/70 backdrop-filter backdrop-blur-md overflow-x-hidden sfpro text-white w-full fixed z-50">
       <div className="mx-4 md:mx-[50px] lg:mx-[72px]">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
@@ -29,7 +29,7 @@ const Navbar = () => {
               <Link
                 to="/"
                 className={`cursor-pointer ${activeMenu === "home"
-                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    ? "scale-110 transform transition-transform duration-300 border-[#C23DF5] border-b-2"
                     : "hover:text-slate-400"
                   }`}
                 onClick={() => handleMenuClick("home")}
@@ -39,7 +39,7 @@ const Navbar = () => {
               <Link
                 to="/games"
                 className={`cursor-pointer ${activeMenu === "games"
-                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    ? "scale-110 transform transition-transform duration-300 border-[#C23DF5] border-b-2"
                     : "hover:text-slate-400"
                   }`}
                 onClick={() => handleMenuClick("games")}
@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link
                 to="/contactus"
                 className={`cursor-pointer ${activeMenu === "contact"
-                    ? "text-slate-400 border-[#C23DF5] border-b-2"
+                    ? "scale-110 transform transition-transform duration-300 border-[#C23DF5] border-b-2"
                     : "hover:text-slate-400"
                   }`}
                 onClick={() => handleMenuClick("contact")}
@@ -75,7 +75,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     class="Btn-Container"
                   >
-                    <span className="text pt-1">Github</span>
+                    <span className="text">Github</span>
                     <span class="icon-Container">
                       <svg
                         width="16"
@@ -153,7 +153,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     class="Btn-Container"
                   >
-                    <span className="text pt-1">Docs</span>
+                    <span className="text">Docs</span>
                     <span class="icon-Container">
                       <svg
                         width="16"
@@ -284,7 +284,7 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
             to="/"
-            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "home" ? "text-slate-400" : ""
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "home" ? "scale-110 transform transition-transform duration-300" : ""
               }`}
             onClick={() => handleMenuClick("home")}
           >
@@ -292,7 +292,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/games"
-            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "games" ? "text-slate-400" : ""
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "games" ? "scale-110 transform transition-transform duration-300" : ""
               }`}
             onClick={() => handleMenuClick("games")}
           >
@@ -301,7 +301,7 @@ const Navbar = () => {
           {/* <Link
             to="/playground"
             className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${
-              activeMenu === "playground" ? "text-slate-400" : ""
+              activeMenu === "playground" ? "scale-110 transform transition-transform duration-300" : ""
             }`}
             onClick={() => handleMenuClick("playground")}
           >
@@ -309,7 +309,7 @@ const Navbar = () => {
           </Link> */}
           <Link
             to="/contactus"
-            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "contact" ? "text-slate-400" : ""
+            className={`block px-3 py-2 rounded-md text-base font-medium hover:underline ${activeMenu === "contact" ? "scale-110 transform transition-transform duration-300" : ""
               }`}
             onClick={() => handleMenuClick("contact")}
           >
