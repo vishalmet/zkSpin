@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.space-grotesk{
+.space-grotesk {
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -11,10 +10,27 @@
   font-family: "Epilogue", sans-serif;
 }
 
+@font-face {
+  font-family: "SFPro";
+  src: url("../src/font/SFPRODISPLAYREGULAR.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.sfpro{
+  font-family: "SFPro";
+}
+
 .gradient-container {
   /* width: 100vw;
   height: 100vh; */
-  background: linear-gradient(-45deg, #000000, #000000, #2e2e2e, #000000, #000000);
+  background: linear-gradient(
+    -45deg,
+    #000000,
+    #000000,
+    #2e2e2e,
+    #000000,
+    #000000
+  );
   background-size: 400% 400%;
   animation: gradientAnimation 15s ease infinite;
   overflow-x: hidden;
@@ -35,7 +51,7 @@
 .customButton {
   border: none;
   outline: none;
-  background-color: #C23DF5;
+  background-color: #c23df5;
   padding: 10px 20px;
   font-size: 12px;
   font-weight: 700;
@@ -65,7 +81,7 @@
 .icon-Container {
   width: 45px;
   height: 45px;
-  background-color: #C23DF5;
+  background-color: #c23df5;
   display: flex;
   align-items: center;
   justify-content: center;
