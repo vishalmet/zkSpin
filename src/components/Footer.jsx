@@ -14,8 +14,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-customStart to-customEnd h-full mt-24 p-3">
-      <div className="mx-4 md:mx-20 flex justify-between items-center">
+    <div className="bg-gradient-to-br from-customStart to-customEnd h-full p-3">
+      <div className="mx-4 md:mx-[50px] lg:mx-[72px] flex justify-between items-center">
         <div className="">
           <img className="w-[115px] h-[30px]" src={Logo2} alt="logo" />
         </div>
