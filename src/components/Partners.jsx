@@ -12,7 +12,7 @@ import Lita from "../assets/partner/lita.png";
 
 const Partners = () => {
   return (
-    <div className="mx-4 md:mx-20 pt-10 md:pt-24">
+    <div className="p-4 md:p-[50px] lg:p-[72px]">
       <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent">
         TEAMED UP WITH <br /> THE BEST
       </p>
