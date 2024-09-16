@@ -20,7 +20,7 @@ const Home = () => {
               loading="lazy"
                 className="w-[100px] md:w-[260px] md:h-[84px] mr-4 md:mr-10"
                 src={Shapes}
-                alt="shapes"
+                alt="shape"
               />
               <p>scalable</p>
             </div>
