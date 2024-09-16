@@ -1,11 +1,11 @@
 import React from "react";
-import Roadmap from "../assets/roadmap.png";
+import Roadmap from "../assets/roadmap1.png";
 import Timeline from "../assets/timeline.png";
 
 const RoadMap = () => {
   return (
-    <div className=" p-4 md:p-[50px] lg:p-[72px] text-white">
-      <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-b from-customStart to-customEnd bg-clip-text text-transparent">
+    <div className="  text-white">
+      <p className="text-4xl md:text-5xl lg:text-7xl uppercase space-grotesk text-center font-medium bg-gradient-to-br from-[#63D0FF] to-[#DC81FF] bg-clip-text text-transparent">
         roadmap
       </p>
       <img className="hidden lg:flex pt-6 md:pt-16" src={Roadmap} alt="" />
