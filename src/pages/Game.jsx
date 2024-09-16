@@ -12,8 +12,8 @@ const Games = () => {
   }, []);
 
   return (
-    <div className="gradient-container overflow-x-hidden min-h-screen text-white epilogue">
-      <div className='pt-28 mx-4 md:mx-20'>
+    <div className="gradient-container overflow-x-hidden min-h-screen text-white space-grotesk">
+      <div className='pt-28 px-4 md:px-[50px] lg:px-[72x] pb-4 md:pb-[30px] lg:pb-[40px]'>
         <p className=' text-4xl md:text-5xl lg:text-7xl space-grotesk text-center font-medium bg-gradient-to-b from-[#63D0FF] to-[#DC81FF] bg-clip-text text-transparent'>GAMES</p>
         <div className=" pt-10 md:grid md:grid-cols-3">
           <a href="https://www.catsvsdogs.xyz/" target="_blank" rel="noopener noreferrer" className=" cursor-pointer">
@@ -27,7 +27,7 @@ const Games = () => {
             <p className=" text-2xl md:text-4xl font-medium pt-3 md:pt-6">
               Cats vs. Dogs
             </p>
-            <p className="text-base">
+            <p className="text-base sfpro">
               Collect and breed digital cats with CryptoKitties, the world’s
               most successful blockchain game.
             </p>
@@ -45,7 +45,7 @@ const Games = () => {
             <p className=" text-2xl md:text-4xl font-medium pt-3 md:pt-6">
               Serpent Chase
             </p>
-            <p className="text-base">
+            <p className="text-base sfpro">
               Hunt, collect, and breed unique serpents in Serpent Chase, the ultimate blockchain game. Compete, grow your collection, and unlock rare serpents to reign supreme.
             </p>
             </a>
