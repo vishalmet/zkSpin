@@ -25,7 +25,7 @@ const Home = () => {
               <p>scalable</p>
             </div>
             <p>
-              on-chain game <br /> engine
+              on-chain game engine
             </p>
           </div>
           <div className="w-[100px] md:w-[200px] lg:w-[400px] overflow-hidden flex justify-end">
