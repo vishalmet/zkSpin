@@ -4,10 +4,10 @@ import FlowFallback from "../assets/flow.png"; // Fallback PNG if necessary
 
 const ZkTech = () => {
   return (
-    <div className="bg-gradient-to-br from-customStart to-customEnd mt-10 md:mt-20 h-full p-4 pb-8 md:p-24 text-white">
+    <div className="bg-gradient-to-br from-customStart to-customEnd h-full p-4 pb-8 md:p-[50px] lg:p-[72px] text-white">
       <div className="">
-        <div className="flex-row md:flex md:space-x-32">
-          <p className="uppercase text-4xl md:text-5xl lg:text-7xl font-medium space-grotesk">
+        <div className="flex-row md:flex md:space-x-[50px] lg:space-x-[72px]">
+          <p className="uppercase text-4xl md:text-5xl lg:text-8xl font-medium space-grotesk">
             the zkspin <br /> technology
           </p>
 
@@ -33,7 +33,7 @@ const ZkTech = () => {
           </div>
 
           {/* Main content */}
-          <div className="px-1 pt-3 md:pt-0 md:px-10">
+          <div className="px-1 pt-3 font-light ">
             <p className="text-xs md:text-2xl">
               As the first project to propose verifiable gaming in August 2023,
               zkSpin leverages computing technologies developed at MIT and

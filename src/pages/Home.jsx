@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <div className="bg-[#141414] text-white epilogue">
       <div className="gradient-container overflow-x-hidden min-h-full pb-4 md:pb-0 md:min-h-screen space-grotesk text-3xl md:text-5xl lg:text-9xl font-medium ">
-        <div className=" pt-24 md:pt-32 ml-4 md:ml-[72px] flex justify-between items-center">
-          <div className="uppercase">
+        <div className=" pt-24 md:pt-32 flex justify-between items-center">
+          <div className="uppercase  mx-4 md:mx-[50px] lg:mx-[72px]">
             <p className="  ">Infinitely</p>
             <div className=" flex items-center">
               <img
@@ -29,11 +29,11 @@ const Home = () => {
             </p>
           </div>
           <div className="w-[100px] md:w-[200px] lg:w-[400px] overflow-hidden flex justify-end">
-            <img className=" h-[160px] md:h-[520px] w-[100px] md:w-[200px] lg:w-[300px] object-cover transform transition-transform duration-500 hover:scale-110" src={LandingRight} alt="Game" />
+            <img className=" h-[160px] md:h-[300px] lg:h-[520px] w-[100px] md:w-[200px] lg:w-full object-cover transform transition-transform duration-500 hover:scale-110" src={LandingRight} alt="Game" />
           </div>
         </div>
 
-        <div className=" pt-10 md:pt-20 md:flex">
+        <div className=" pt-10 py-4 md:py-[50px] lg:py-[72px] md:flex">
           <div className=" w-full md:w-[700px] overflow-hidden">
             <img loading="lazy"
               className="h-[130px] md:h-[280px] w-full md:w-[700px] flex-shrink object-cover transform transition-transform duration-500 hover:scale-110"
@@ -41,8 +41,8 @@ const Home = () => {
               alt=""
             />
           </div>
-          <div className=" mx-auto">
-            <p className=" pt-4 md:pt-0 px-4 md:px-0 text-base md:text-[28px] font-medium">
+          <div className=" mx-4 md:mx-[50px] lg:mx-[72px]">
+            <p className=" pt-4 md:pt-0 text-base md:text-[28px] font-medium">
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
             <div className=" flex pt-3 md:pt-6 px-4 md:px-0">
