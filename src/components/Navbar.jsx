@@ -17,14 +17,14 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black/70 backdrop-filter backdrop-blur-md overflow-x-hidden epilogue text-white w-full fixed z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="mx-4 md:mx-[50px] lg:mx-[72px]">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="text-lg font-bold">
               <img className="h-8" src={Logo} alt="logo" />
             </Link>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="flex text-[18px] items-baseline space-x-10">
               <Link
                 to="/"
@@ -229,7 +229,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex lg:hidden">
             <button
               onClick={toggleMenu}
               type="button"
@@ -278,7 +278,7 @@ const Navbar = () => {
 
       {/* Mobile */}
       <div
-        className={`${isOpen ? "block" : "hidden"} md:hidden`}
+        className={`${isOpen ? "block" : "hidden"} lg:hidden`}
         id="mobile-menu"
       >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
