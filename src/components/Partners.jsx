@@ -88,59 +88,59 @@ const Partners = () => {
 
 
       {/* mobile */}
-      <div className=" grid grid-cols-2 items-center md:hidden">
+      <div className=" grid grid-cols-2 items-center pt-6 md:hidden">
         <a href="https://a16zcrypto.com/accelerator/" rel="noopener noreferrer" target="_blank">
           <img
-            className=" h-[50px] w-[127px] flex justify-center mx-auto hover:scale-105"
+            className=" h-[50px] w-[100px] flex justify-center mx-auto hover:scale-105"
             src={CSX}
             alt="A16Z"
           />
         </a>
         <a href="https://scroll.io/" rel="noopener noreferrer" target="_blank">
           <img
-            className=" h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className=" h-[80px] w-[150px] flex justify-center mx-auto hover:scale-105"
             src={Scroll}
             alt="SCROLL"
           />
         </a>
         <a href="https://www.abga.asia/" rel="noopener noreferrer" target="_blank">
           <img
-            className=" h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className=" h-[80px] w-full flex justify-center mx-auto hover:scale-105"
             src={ABGA}
             alt="ABGA"
           />
         </a>
         <a href="https://www.certik.com/" rel="noopener noreferrer" target="_blank">
           <img
-            className="h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className="h-[80px] w-full flex justify-center mx-auto hover:scale-105"
             src={Certik}
             alt="CERTIK"
           />
         </a>
         <a href="https://cysic.xyz/" rel="noopener noreferrer" target="_blank">
           <img
-            className=" h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className=" h-[80px] w-full flex justify-center mx-auto hover:scale-105"
             src={Cysic}
             alt="CYSIC"
           />
         </a>
         <a href="https://koyamaki.io/about.html" rel="noopener noreferrer" target="_blank">
           <img
-            className=" h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className=" h-[80px] w-full flex justify-center mx-auto hover:scale-105"
             src={Koyamaki}
             alt="KOYAMAKI"
           />
         </a>
         <a href="https://delphinuslab.com/" rel="noopener noreferrer" target="_blank">
           <img
-            className="h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className="h-[80px] w-full flex justify-center mx-auto hover:scale-105"
             src={Delphinus}
             alt="DELPHINUS"
           />
         </a>
         <a href="https://www.lita.foundation/" rel="noopener noreferrer" target="_blank">
           <img
-            className="h-[100px] w-[167px] flex justify-center mx-auto hover:scale-105"
+            className="h-[80px] w-[170px] flex justify-center mx-auto hover:scale-105"
             src={Lita}
             alt="LITA"
           />
@@ -148,7 +148,7 @@ const Partners = () => {
       </div>
       <a href="https://www.blockchaingamealliance.org/" rel="noopener noreferrer" target="_blank">
         <img
-          className="h-[100px] md:hidden w-[167px] flex justify-center mx-auto hover:scale-105"
+          className="h-[80px] md:hidden w-[180px] flex justify-center mx-auto hover:scale-105"
           src={BGA}
           alt="BGA"
         />
