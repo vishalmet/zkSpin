@@ -46,12 +46,12 @@ const Home = () => {
             <p className=" pt-4 md:pt-0 text-base md:text-[28px] font-medium ">
               Unlimited TPS  •  Gasless  •  Ultra-low Latency
             </p>
-            <div className=" flex pt-3 md:pt-6 md:px-0">
+            <div className=" flex pt-3  md:pt-6 md:px-0">
               <a
                 href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center cursor-pointer text-base md:text-lg font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3 lg:p-4 w-52"
+                className="flex justify-center items-center cursor-pointer text-sm md:text-lg font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3 px-4 lg:p-4 lg:w-52"
               >
                 GET STARTED
                 {/* <svg

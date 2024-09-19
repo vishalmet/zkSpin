@@ -24,12 +24,12 @@ const SpinIntelligence = () => {
             On-chain gaming activities are professionally indexed and analyzed,
             with actionable insights accessible via a Web2 API.
           </p>
-          <div className=" flex pt-3 font-extralight sfpro md:pt-6">
+          <div className=" flex pt-3 font-extralight text-sm lg:text-base sfpro md:pt-6">
               <a
                 href="https://github.com/m4-team/spin-sdk/blob/main/guide/2_INTRODUCTION.md"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center cursor-pointer md:text-lg font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3 lg:p-4 w-52"
+                className="flex justify-center items-center cursor-pointer text-sm md:text-lg font-semibold bg-gradient-to-br from-customStart to-customEnd hover:bg-gradient-to-tl hover:scale-95 p-3 px-4 lg:p-4 lg:w-52"
               >
                 COMING SOON 
               </a>
